@@ -1,0 +1,37 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "player models",
+		"description": "player models Resource Pack",
+		"uuid": "e5b586d3-b65e-719b-88d2-504a2e5f2b8d",
+		"version": [
+			1,
+			0,
+			34
+		],
+		"min_engine_version": [
+			1,
+			16,
+			0
+		]
+	},
+	"metadata": {
+		"generated_with": {
+			"blockbench_entity_wizard": [
+				"1.8.2"
+			]
+		}
+	},
+	"modules": [
+		{
+			"description": "player models",
+			"type": "resources",
+			"uuid": "5d16073d-fbf4-85ab-938f-1c5a315a3d10",
+			"version": [
+				1,
+				0,
+				34
+			]
+		}
+	]
+}

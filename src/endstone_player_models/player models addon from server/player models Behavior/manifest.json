@@ -1,0 +1,47 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "player models",
+		"description": "player models Behavior Pack",
+		"uuid": "20fb3b60-3647-49db-3f6d-d208e48729d2",
+		"version": [
+			1,
+			0,
+			34
+		],
+		"min_engine_version": [
+			1,
+			16,
+			0
+		]
+	},
+	"metadata": {
+		"generated_with": {
+			"blockbench_entity_wizard": [
+				"1.8.2"
+			]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [
+				1,
+				0,
+				34
+			],
+			"uuid": "dac726ed-9cd4-898b-f169-f2d173ca92ad",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "e5b586d3-b65e-719b-88d2-504a2e5f2b8d",
+			"version": [
+				1,
+				0,
+				34
+			]
+		}
+	]
+}

@@ -1,0 +1,10 @@
+{
+    "server_path": "/home/container",
+    "world_folder_name": "TheKingdom",
+    "skip_3d_skins": true,
+    "enable_on_join": true,
+    "enable_on_skin_change": true,
+    "addon_namespace": "ninjos",
+    "version_bump_hour": 11,
+    "version_bump_minute": 30
+}
