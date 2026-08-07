@@ -20,8 +20,9 @@
 </p>
 
 <p align="center">
-  <a href="#overview">Overview</a> &bull;
-  <a href="#compatibility">Compatibility</a> &bull;
+  <a href="#what-it-does">What it does</a> &bull;
+  <a href="#how-to-use">How to use</a> &bull;
+  <a href="#commands-and-permissions">Commands</a> &bull;
   <a href="#install">Install</a> &bull;
   <a href="https://github.com/TheNINJALLO/endstone-player-models/releases">Releases</a>
 </p>
@@ -30,9 +31,22 @@
 
 Endstone plugin that captures player skins and creates NPC entities. This release is aligned with Endstone 0.11.8 and Minecraft Bedrock Dedicated Server 1.26.40, and is distributed as a Python wheel for direct installation in an Endstone server.
 
-## Capabilities
+## What it does
 
--
+- Captures player skins on join and skin change and turns them into deployable NPC entity definitions.
+- Creates a stable namespace-based entity identifier per player and versions later skin changes.
+- Can skip unsupported 128×128 custom skins and deploy generated addon files to the selected world.
+
+## How to use
+
+1. Start once and set the server path, world folder, namespace, and skin-capture options in local `config.json`.
+2. Have a player join or change skin and confirm that the generated addon files are deployed.
+3. Restart/reload the world content as required, then spawn the model with `/summon <namespace>:<player-name>`.
+4. Keep generated skin and addon output out of source control unless intentionally publishing an asset pack.
+
+## Commands and permissions
+
+This plugin registers no custom Endstone commands. Skin capture is event-driven; generated entities are spawned with Bedrock's built-in `/summon <namespace>:<player-name>` command.
 
 ## Compatibility
 
